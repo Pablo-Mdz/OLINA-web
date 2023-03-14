@@ -2,7 +2,7 @@ import React from 'react'
 
 export const Reservations = () => {
   return (
-    <div div className='bg-yellow-500'>
+    <div div className='bg-yellow-500 font-pop'>
         <div className="py-10 px-4">
                 <div className="text-2xl font-bold mb-4">
                     Haz tu Reserva en Línea

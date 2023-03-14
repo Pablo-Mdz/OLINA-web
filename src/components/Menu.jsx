@@ -2,9 +2,9 @@ import React from "react";
 
 export const Menu = () => {
     return (
-        <div className="bg-gray-100" style={{
+        <div className="bg-gray-100 font-pop" style={{
             // backgroundImage: "url('./../assets/11.png')",
-            backgroundImage: "url('https://res.cloudinary.com/be-chef/image/upload/v1678719560/mer01hp5uxn1oryawofe.png')",
+            backgroundImage: "url('https://res.cloudinary.com/be-chef/image/upload/v1672792193/ds4fsmo4ivw6a7ddwl7j.jpg')",
         }}>
         {/* className="h-screen bg-center bg-cover " */}
             <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
