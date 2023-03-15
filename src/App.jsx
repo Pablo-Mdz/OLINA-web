@@ -1,10 +1,12 @@
 import {BrowserRouter, Routes, Route} from "react-router-dom";
 import {HomePage} from "./components/HomePage";
-import {Contact} from "./components/Contact";
 import {NavBar} from "./components/NavBar";
-import {Reservations} from "./components/Reservations";
 import {Footer} from "./components/Footer";
-import {Menu} from "./components/Menu";
+import {AllPost} from "./components/AllPost";
+import {AboutMe} from "./components/AboutMe";
+import {Gallery} from "./components/Gallery";
+import {ContactMe} from "./components/ContactMe";
+import {BlogPost} from "./components/BlogPost";
 
 function App() {
     return (
@@ -13,9 +15,20 @@ function App() {
                 <NavBar />
                 <Routes>
                     <Route path="/" element={<HomePage />} />
-                    <Route path="/menu" element={<Menu />} />
-                    <Route path="/reservations" element={<Reservations />} />
-                    <Route path="/Contact" element={<Contact />} />
+                    <Route path="/allPost" element={<AllPost />} />
+                    <Route path="/gallery" element={<Gallery />} />
+                    <Route path="/about" element={<AboutMe />} />
+                    <Route
+                        path="/post"
+                        element={
+                            <BlogPost
+                                title="My First Blog Post"
+                                description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod quam ac nulla sagittis, a venenatis eros consequat. Fusce pellentesque quam at bibendum molestie. Donec eget aliquet velit."
+                                photoUrl="https://source.unsplash.com/random/800x600"
+                            />
+                        }
+                    />
+                    <Route path="/contactMe" element={<ContactMe />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>

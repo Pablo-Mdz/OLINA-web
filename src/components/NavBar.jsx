@@ -19,29 +19,35 @@ export const NavBar = () => {
                         Inicio
                     </a>
                     <a
-                        href="/menu"
+                        href="/allPost"
                         className="text-white font-medium mx-3 hover:text-gray-400"
                     >
                         Posts
                     </a>
+                    {/* <a
+                        href="/post"
+                        className="text-white font-medium mx-3 hover:text-gray-400"
+                    >
+                        Post details
+                    </a> */}
                     <a
-                        href="/menu"
+                        href="/gallery"
                         className="text-white font-medium mx-3 hover:text-gray-400"
                     >
                         Gallery
                     </a>
                     <a
-                        href="/galery"
+                        href="/about"
                         className="text-white font-medium mx-3 hover:text-gray-400"
                     >
-                        Flege
+                        Sobre mi
                     </a>
 
                     <Link
-                        to="/Contact"
+                        to="/contactMe"
                         className="text-white font-medium mx-3 hover:text-gray-400"
                     >
-                        Contacto
+                        Contactame
                     </Link>
                 </div>
             {/* </div>
