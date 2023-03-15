@@ -25,7 +25,13 @@ export const NavBar = () => {
                         Posts
                     </a>
                     <a
-                        href="/reservations"
+                        href="/menu"
+                        className="text-white font-medium mx-3 hover:text-gray-400"
+                    >
+                        Gallery
+                    </a>
+                    <a
+                        href="/galery"
                         className="text-white font-medium mx-3 hover:text-gray-400"
                     >
                         Flege
