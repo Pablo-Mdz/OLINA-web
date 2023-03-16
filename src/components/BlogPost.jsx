@@ -1,5 +1,5 @@
 import React from "react";
-
+//revisar y conectar a posts*
 export const BlogPost = ({title, description, photoUrl}) => {
     return (
         <div className="bg-white shadow-lg rounded-lg overflow-hidden ">
