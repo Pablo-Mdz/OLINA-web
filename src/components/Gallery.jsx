@@ -6,6 +6,9 @@ export const Gallery = () => {
       const images = [
     "https://source.unsplash.com/random/800x600",
     "https://source.unsplash.com/random/600x800",
+    "https://source.unsplash.com/random/600x800",
+    "https://source.unsplash.com/random/600x800",
+    "https://source.unsplash.com/random/900x700",
     "https://source.unsplash.com/random/900x700",
     "https://source.unsplash.com/random/700x900",
     "https://source.unsplash.com/random/800x800",
