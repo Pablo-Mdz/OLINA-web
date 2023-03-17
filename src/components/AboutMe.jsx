@@ -14,7 +14,6 @@ export  const AboutMe = () => {
               leo sit amet enim faucibus blandit. Integer euismod, eros quis
               egestas feugiat, tortor quam consectetur justo, quis facilisis
               sapien enim a neque.
-              sapien enim a neque.
             </p>
             <p className="text-white mb-8">
               Integer nec lorem vitae est luctus ullamcorper euismod sit amet
