@@ -22,7 +22,7 @@ function App() {
                         path="/post"
                         element={
                             <BlogPost
-                                title="My First Blog Post"
+                                title="Example of Title"
                                 description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod quam ac nulla sagittis, a venenatis eros consequat. Fusce pellentesque quam at bibendum molestie. Donec eget aliquet velit."
                                 photoUrl="https://source.unsplash.com/random/800x600"
                             />

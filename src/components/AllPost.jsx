@@ -14,7 +14,7 @@ export const AllPost = () => {
             <div className="max-w-7xl mx-auto py-16 px-4 sm:px-6 lg:px-8">
                 <div className="lg:flex lg:items-center lg:justify-between">
                     <h2 className="text-3xl font-extrabold tracking-tight text-gothic sm:text-4xl">
-                        Menú
+                        Posts
                     </h2>
                 </div>
                 <div className="mt-8 grid grid-cols-1 gap-12 lg:grid-cols-2 xl:grid-cols-4">
