@@ -11,7 +11,7 @@ export const HomePage = () => {
             >
                 <div className="h-full flex items-center justify-center">
                     <h1 className="text-white font-bold text-5xl ml-32">
-                        mi blog
+                        my blog
                     </h1>
                 </div>
                 
