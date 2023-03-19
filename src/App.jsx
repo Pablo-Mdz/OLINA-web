@@ -7,6 +7,7 @@ import {AboutMe} from "./components/AboutMe";
 import {Gallery} from "./components/Gallery";
 import {ContactMe} from "./components/ContactMe";
 import {BlogPost} from "./components/BlogPost";
+import { WordList } from "./components/WordList";
 
 function App() {
     return (
@@ -29,6 +30,7 @@ function App() {
                         }
                     />
                     <Route path="/contactMe" element={<ContactMe />} />
+                    <Route path="/wordlist" element={<WordList />} />
                 </Routes>
                 <Footer />
             </BrowserRouter>

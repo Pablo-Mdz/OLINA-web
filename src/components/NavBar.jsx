@@ -37,7 +37,13 @@ export const NavBar = () => {
                         href="/about"
                         className="text-white font-medium mx-3 hover:text-gray-400"
                     >
-                        Sobre mi
+                        About me
+                    </a>
+                    <a
+                        href="/wordlist"
+                        className="text-white font-medium mx-3 hover:text-gray-400"
+                    >
+                        Word List
                     </a>
 
                     <Link
